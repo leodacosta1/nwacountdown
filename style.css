@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+
+* {
+    margin: none;
+    border: none;
+    padding: none;
+}
+
+body {
+    background-image: url("nw-bg-img.jpg");
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position-y: -90px;
+    background-position-x: center;
+
+}
+
+.countdownWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.content {
+    padding: 20px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 15px;
+    font-size: 46px;
+    font-family: "Vesper Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+}
